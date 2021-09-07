@@ -1,0 +1,22 @@
+.addForm{
+    background: cornflowerblue;
+    border-radius: 15px;
+    padding: 20px;
+}
+.addForm input, .addForm button{
+    border-radius: 7px;
+    padding: 10px;
+    border: 1px solid rgb(226, 226, 226);
+    width: 100%;
+    display: block;
+    margin: 7px 0;
+}
+.addForm button{
+    background: rgb(100, 27, 235);
+    color: #fff;
+    transition: .4s;
+}
+.addForm button:hover, .addForm button:active{
+    background: rgb(58, 12, 143);
+
+}

@@ -1,0 +1,21 @@
+.month{
+    font-size: 16px;
+}
+.day{
+    font-size: 38px;
+}
+.year{
+    font-size: 14px;
+}
+
+.month, .day, .year{
+    padding: 0!important;
+    line-height: 1.2;
+}
+
+.date-item{
+    padding: 10px 30px;
+    border-radius: 7px;
+    border: 1px solid #fff;
+    background: rgb(75, 68, 167);
+}
