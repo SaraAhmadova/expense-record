@@ -29,6 +29,7 @@ const NewExpenseForm = (props) => {
 
      function saveRecordHandler(e) { 
          e.preventDefault();
+     
          setFormInfo({
              title: "",
              date: "",

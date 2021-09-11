@@ -10,17 +10,14 @@ function Main() {
     { id: 3, title: "Pants", price: "54", date:  new Date(2021,4,11) },
   ]) ;
   const onSaveExpense = expense => {
-    console.log(expense,"main.jss");
-    // expense.id = 5;
     const expenseItem = {
       ...expense,
-      id: 5
+      date: new Date(expense.date),
+      id: Math.random(5,100)
     }
-
-    setExpenseList(expenseList.push(expenseItem))
-    console.log(expenseItem);
-
+    setExpenseList([...expenseList, expenseItem])
   }
+
   return (
     <div className="main w-60">
       <NewExpenseForm onSaveExpense = {onSaveExpense}/>
