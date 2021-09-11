@@ -3,7 +3,7 @@ import DateItem from '../DateItem/DateItem';
 import "./ExpenseCard.css"
 
 function ExpenseCard(props) {
-    const [title, setTitle] = useState(props.name)
+    const [title, setTitle] = useState(props.title)
 
     const changeTitle= ()=>{
         setTitle("Updated");

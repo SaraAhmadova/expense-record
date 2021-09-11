@@ -1,7 +1,13 @@
 .main{
-    background-color: rgb(45, 39, 112);
     border-radius: 20px;
     padding: 30px;
-    width: 60%;
     margin: 20px auto;
+}
+.w-60{
+    width: 60%;
+
+}
+
+.cards{
+    background: rgb(40, 51, 110);
 }
