@@ -28,7 +28,7 @@ const Chart = (props) => {
     return (
         <div className="chart-box">
             {chartData.map((data,i) => (
-                <ChartItem key={i} month={data.month} height={100*data.value/max}/>
+                <ChartItem key={i} month={data.month} height={props.expenses.length===0? 0 : 100*data.value/max}/>
             ))}
         </div>
     )
