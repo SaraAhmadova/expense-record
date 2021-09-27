@@ -11,3 +11,10 @@
 .cards{
     background: rgb(40, 51, 110);
 }
+
+.text-mute{
+    font-size: 24px;
+    font-weight: 600;
+    color: #6f6f86;
+
+}

@@ -1,0 +1,16 @@
+.filter-container{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
+}
+.filter-container .title{
+    font-weight: 600;
+    color: #a2a2c9;
+    font-size: 26px;
+}
+.filter-container select{
+    padding: 10px 20px;
+    border-radius: 12px;
+    outline: none;
+    border: none;
+}

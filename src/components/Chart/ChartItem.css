@@ -1,0 +1,28 @@
+.chart-item{
+    width: calc( 100% / 12);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.chart-item__month-progress{
+    width: 90%;
+    max-width: 30px;
+    border-radius: 30px;
+    background: rgb(43, 40, 90);
+    border: 1px solid rgb(43, 40, 90);
+    overflow: hidden;
+    height: 90%;
+    display: flex;
+    align-items: flex-end;
+}
+.chart-item__month-progress>span{
+    background: rgb(168, 163, 233);
+    display: inline-block;
+    width: 100%;
+    height: 0%;
+    transition: .5s;
+}
+.chart-item>span{
+    color: #fff;
+}
